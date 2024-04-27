@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Bubbling and Capturing</title>
+</head>
+<body>
+  <div id="outer">
+    <div id="middle">
+      <div id="inner">Click me!</div>
+    </div>
+  </div>
+
+  <script>
+    const outer = document.getElementById('outer');
+    const middle = document.getElementById('middle');
+    const inner = document.getElementById('inner');
+
+    // Event bubbling
+    outer.addEventListener('click', () => {
+      console.log('Outer div clicked');
+    });
+    middle.addEventListener('click', () => {
+      console.log('Middle div clicked');
+    });
+    inner.addEventListener('click', () => {
+      console.log('Inner div clicked');
+    });
+
+    // Event capturing
+    outer.addEventListener('click', () => {
+      console.log('Outer div captured', { capture: true });
+    }, true);
+    middle.addEventListener('click', () => {
+      console.log('Middle div captured', { capture: true });
+    }, true);
+    inner.addEventListener('click', () => {
+      console.log('Inner div captured', { capture: true });
+    }, true);
+  </script>
+</body>
+</html>
