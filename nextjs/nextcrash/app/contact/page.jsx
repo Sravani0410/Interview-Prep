@@ -1,4 +1,7 @@
+import Link from 'next/link';
 import React from 'react'
+import { sessionToken } from '../util/session';
+import { redirect } from 'next/navigation';
 
 export const metadata = {
     title: "My Contact",
@@ -6,8 +9,15 @@ export const metadata = {
   };
 
 const contact = () => {
+  //2nd type---> to restrict the route i.e Private route 
+  let data=sessionToken;
+  if(data){
+    redirect('/')
+  }
   return (
-    <div>contact</div>
+    <div>This is Contact Page
+      <Link href={`/contact/${34}`}>contact</Link>
+    </div>
   )
 }
 
