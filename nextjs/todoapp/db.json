@@ -1,0 +1,81 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "title": "Buy groceries",
+      "description": "Milk,Bread,Butter,Eggs",
+      "due_date": "2024-05-22",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "title": "Finish Project Report",
+      "description": "Complete the final draft of the project report and submit it to the supervison",
+      "due_date": "2024-05-25",
+      "status": "in progress"
+    },
+    {
+      "id": 3,
+      "title": "Buy groceries",
+      "description": "Milk,Bread,Butter,Eggs",
+      "due_date": "2024-05-22",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "title": "Call plumber",
+      "description": "Fix the leaking sinkin the kitchen",
+      "due_date": "2024-05-23",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "title": "Read book",
+      "description": "Finish Reading 'The Great Gatsby'",
+      "due_date": "2024-05-27",
+      "status": "not started"
+    },
+    {
+      "id": 6,
+      "title": "Buy groceries",
+      "description": "Milk,Bread,Butter,Eggs",
+      "due_date": "2024-05-22",
+      "status": "pending"
+    },
+    {
+      "id": 7,
+      "title": "Buy groceries",
+      "description": "Milk,Bread,Butter,Eggs",
+      "due_date": "2024-05-22",
+      "status": "pending"
+    },
+    {
+      "id": 8,
+      "title": "Buy groceries",
+      "description": "Milk,Bread,Butter,Eggs",
+      "due_date": "2024-05-22",
+      "status": "pending"
+    },
+    {
+      "id": 9,
+      "title": "Buy groceries",
+      "description": "Milk,Bread,Butter,Eggs",
+      "due_date": "2024-05-22",
+      "status": "pending"
+    },
+    {
+      "id": "",
+      "title": "add 1",
+      "description": "i added the values",
+      "due_date": "2024-06-07",
+      "status": "pending"
+    },
+    {
+      "id": "",
+      "title": "added",
+      "description": "fghj",
+      "due_date": "2024-06-06",
+      "status": "pending"
+    }
+  ]
+}
